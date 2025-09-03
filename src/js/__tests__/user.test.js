@@ -17,5 +17,5 @@ test('should call loadUser once', () => {
 });
 
 test('saveuser', () => {
-  expect(() => saveUser()).toThrowError('Unimplemented');
+  expect(() => saveUser()).toThrow('Unimplemented');
 })
